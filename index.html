@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <h2>
+        <marquee>Get Ready to Play — The Adventure Begins Now</marquee>
+    </h2>
+
+    <div id="game-player-symbols">
+        <h3>Player 1 :</h3>
+        <!-- this is X -->
+        <div id="symbole1">X</div>
+
+        <button id="swap-btn">&#x21cc;</button>
+
+        <h3>Player 2 :</h3>
+        <div id="symbole2">O</div>
+    </div>
+    <div id="score">
+        score :<span id="player1_score">0</span>
+        score :<span id="player2_score">0</span>
+    </div>
+    <div id="msg"></div>
+
+    <div id="main-box">
+        <!-- row 1 -->
+        <div class="row">
+            <div class="inner-box" id="box1">
+            </div>
+            <div class="inner-box" id="box2">
+            </div>
+            <div class="inner-box" id="box3">
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="inner-box" id="box4">
+            </div>
+            <div class="inner-box" id="box5">
+            </div>
+            <div class="inner-box" id="box6">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="inner-box" id="box7">
+            </div>
+            <div class="inner-box" id="box8">
+            </div>
+            <div class="inner-box" id="box9">
+            </div>
+        </div>
+        <div>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

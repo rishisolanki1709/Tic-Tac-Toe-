@@ -1,0 +1,147 @@
+body {
+    background-color: #1a0329;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin-top: 2px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.inner-box {
+    height: 120px;
+    width: 120px;
+    background-color: none;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#box1 {
+    border-top: 0px;
+    border-left: 0px;
+}
+
+#box2 {
+    border-top: 0px;
+}
+
+#box3 {
+    border-top: 0px;
+    border-right: 0px;
+}
+
+#box4 {
+    border-left: 0px;
+}
+
+#box6 {
+    border-right: 0px;
+}
+
+#box7 {
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+#box8 {
+    border-bottom: 0px;
+}
+
+#box9 {
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+.row {
+    display: flex;
+}
+
+#main-box {
+    margin-left: 580px;
+}
+
+#play-again-btn {
+    margin-top: 10px;
+    margin-left: 130px;
+    padding: 9px;
+    font-size: large;
+    background-color: #480972;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+#swap-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #480972;
+    border: 0px solid #fdfdfc;
+    border-radius: 30px;
+    border: 1px solid white;
+    height: 25px;
+    width: 80px;
+    margin: 20px;
+    color: white;
+    font-size: large;
+}
+
+#play-again-btn:hover,
+#swap-btn:hover {
+    background-color: #1c032e;
+    transform: scale(1.1);
+    border: 2px solid white;
+}
+
+#play-again-btn:active,
+#swap-btn:active {
+    background-color: black;
+    transform: scale(1.2) ease-in;
+}
+
+#game-player-symbols {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#symbole1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: red;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#symbole2 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#score {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#msg {
+    text-align: center;
+    font-size: larger;
+}
